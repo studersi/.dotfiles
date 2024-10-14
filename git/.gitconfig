@@ -10,6 +10,8 @@
 	enabled = true
 [push]
 	autoSetupRemote = true
+[pull]
+	rebase = true
 [diff]
 	# ignoresubmodules = all
 [submodules]
