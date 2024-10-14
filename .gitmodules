@@ -1,0 +1,4 @@
+[submodule "nvim"]
+	path = neovim/.config/nvim
+	url = https://github.com/studersi/kickstart.nvim.git
+	branch = master
