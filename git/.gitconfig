@@ -1,0 +1,19 @@
+[user]
+	name = FIXME
+	email = FIXME
+[core]
+	editor = vim
+	autocrlf = input
+[init]
+	defaultBranch = master
+[rerere]
+	enabled = true
+[push]
+	autoSetupRemote = true
+[diff]
+	# ignoresubmodules = all
+[submodules]
+	# ignore = all
+[alias]
+	adog = log --all --decorate --oneline --graph
+	pushf = push --force-with-lease --force-if-includes
