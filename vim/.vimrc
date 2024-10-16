@@ -9,3 +9,5 @@ set timeoutlen=1000 ttimeoutlen=0
 set background=dark
 colorscheme evening
 highlight Visual cterm=reverse ctermbg=NONE
+
+Plug 'catppuccin/vim', { 'as': 'catppuccin' }
