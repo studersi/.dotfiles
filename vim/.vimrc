@@ -1,6 +1,14 @@
 set ts=4
 set paste
 
+" set list
+set lcs+=space:·
+set lcs+=eol:$
+set lcs+=tab:»-
+set lcs+=trail:·
+set lcs+=extends:>
+set lcs+=precedes:<
+
 set number
 set relativenumber
 
