@@ -6,8 +6,8 @@ set relativenumber
 
 set timeoutlen=1000 ttimeoutlen=0
 
-set background=dark
-colorscheme evening
-highlight Visual cterm=reverse ctermbg=NONE
+set termguicolors
 
-Plug 'catppuccin/vim', { 'as': 'catppuccin' }
+colorscheme catppuccin_macchiato
+let g:airline_theme = 'catppuccin_macchiato'
+let g:airline_powerline_fonts = 1

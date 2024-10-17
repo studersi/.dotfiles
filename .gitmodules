@@ -1,3 +1,22 @@
+########################################################################################################################
+# .gitmodules
+########################################################################################################################
+
+# === vim plugins
+[submodule "vim/catppuccin/vim"]
+	path = vim/.vim/pack/vendor/start/vim
+	url = https://github.com/catppuccin/vim.git
+	branch = main
+[submodule "vim/vim-airline/vim-airline"]
+	path = vim/.vim/pack/vendor/start/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
+	branch = master
+[submodule "vim/vim-airline/vim-airline-themes"]
+	path = vim/.vim/pack/vendor/start/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes.git
+	branch = master
+
+# === other
 [submodule "nvim"]
 	path = neovim/.config/nvim
 	url = https://github.com/studersi/kickstart.nvim.git
